@@ -1,0 +1,39 @@
+{
+  "name": "trello-todo-board",
+  "version": "1.0.0",
+  "description": "A simple Kanban-style todo board built with React",
+  "main": "index.js",
+  "dependencies": {
+    "@dnd-kit/core": "latest",
+    "@dnd-kit/sortable": "latest",
+    "axios": "latest",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "latest"
+  },
+  "homepage": "https://YOUR_USERNAME.github.io/trello-todo-board",
+
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+     "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+  },
+  "author": "",
+  "license": "MIT",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
