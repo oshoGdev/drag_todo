@@ -11,13 +11,12 @@
     "react-dom": "^18.0.0",
     "react-scripts": "latest"
   },
-  "homepage": "https://YOUR_USERNAME.github.io/trello-todo-board",
-
+  "homepage": "https://oshoGdev.github.io/trello-todo-board",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "MIT",
